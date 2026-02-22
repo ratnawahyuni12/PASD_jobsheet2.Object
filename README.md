@@ -46,3 +46,6 @@ jawaban: baris kode tersebut melakukan instansiasi objek bernama mhs2 dari class
 - kelas = "TI 2L" 
 sehingga objek mhs2 langsung memiliki data tanpa perlu mengisi atribut satu per satu seperti yang dilakukan pada objek mhs1.
 3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+jawaban: Hasilnya adalah error/program tidak bisa di-compile, karena di MahasiswaMain20.java terdapat baris Mahasiswa20 mhs1 = new Mahasiswa20();
+baris tersebut memanggil konstruktor default, sedangkan konstruktor default sudah dihapus. Java tidak bisa menemukan konstruktor yang sesuai sehingga muncul error.
+hal ini terhadi karena ketika sebuah class sudah memiliki konstruktor berparameter, java tidak lagi otomatis membuat konstruktor default. sehingga jika konstruktor default dihapus dan masih ada kode yang memanggilnya,program akan gagal di-compile.
