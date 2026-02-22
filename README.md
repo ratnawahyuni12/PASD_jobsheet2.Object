@@ -15,3 +15,9 @@ jawaban: dalam evaluasi kinerja mahasiswa, method nilaiKinerja() bekerja dengan 
 - ipk >= 2.0 || "Kinerja cukup"
 - ipk < 2.0  || "Kinerja kurang"
 yang di-return (dikembalikan) yaitu nilai bertipe String berupa keterangan kinerja mahasiswa sesuai dengan ipk yang dimiliki.
+
+Pertanyaan Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?
+jawaban: baris kode program yang digunakan untuk proses instansisasi pada class MahasiswaMain yaitu: 
+Mahasiswa20 mhs1 = new Mahasiswa20();
+nama object yang dihasilkan yaitu mhs1.
