@@ -27,3 +27,13 @@ mhs1.nama = "Muhammad Ali Farhan";
 mhs1.tampilkanInformasi();
 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
 jawaban: karena di antara pemanggilan tampilkanInformasi() pertama dan kedua, terdapat pemanggilan method ubahKelas("SI 2K") dan updateIPK(3.60) yang mengubah nilai atribut kelas dari "SI 2J" menjadi "SI 2K" dan nilai ipk dari 3.55 menjadi 3.60. sehingga ketika tampilkanInformasi() dipanggil kedua kali, data yang ditampilkan sudah berubah.
+
+Pertanyaan Percobaan 3: Membuat Konstruktor
+1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!
+jawaban: baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter adalah:
+public Mahasiswa20(String nm, String nim, double ipk, String kls) {
+    nama = nm;
+    this.nim = nim;
+    this.ipk = ipk;
+    kelas = kls;
+}
