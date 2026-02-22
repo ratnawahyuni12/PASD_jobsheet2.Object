@@ -45,3 +45,4 @@ jawaban: baris kode tersebut melakukan instansiasi objek bernama mhs2 dari class
 - ipk = 3.25
 - kelas = "TI 2L" 
 sehingga objek mhs2 langsung memiliki data tanpa perlu mengisi atribut satu per satu seperti yang dilakukan pada objek mhs1.
+3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
