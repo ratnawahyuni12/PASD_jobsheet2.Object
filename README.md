@@ -37,3 +37,11 @@ public Mahasiswa20(String nm, String nim, double ipk, String kls) {
     this.ipk = ipk;
     kelas = kls;
 }
+2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut? 
+Mahasiswa20 mhs2 = new Mahasiswa20("Annisa Nabila", "2541720160", 3.25, "TI 2L"); 
+jawaban: baris kode tersebut melakukan instansiasi objek bernama mhs2 dari class Mahasiswa20 menggunakan konstruktor berparameter, dengan langsung mengisi nilai atribut pada saat objek dibuat, yaitu:
+- nama = "Annisa Nabila"
+- nim = "2541720160"
+- ipk = 3.25
+- kelas = "TI 2L" 
+sehingga objek mhs2 langsung memiliki data tanpa perlu mengisi atribut satu per satu seperti yang dilakukan pada objek mhs1.
