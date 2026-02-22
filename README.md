@@ -21,3 +21,7 @@ Pertanyaan Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
 jawaban: baris kode program yang digunakan untuk proses instansisasi pada class MahasiswaMain yaitu: 
 Mahasiswa20 mhs1 = new Mahasiswa20();
 nama object yang dihasilkan yaitu mhs1.
+2. Bagaimana cara mengakses atribut dan method dari suatu objek?
+jawaban: cara mengakses atribut dan method dari suatu objek yaitu dengan menggunakan tanda titik ( . ) setelah nama objek. implementasinya pada kode program class MahasiswaMain20 yaitu:
+mhs1.nama = "Muhammad Ali Farhan";
+mhs1.tampilkanInformasi();
