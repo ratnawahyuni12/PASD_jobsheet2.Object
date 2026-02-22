@@ -25,3 +25,5 @@ nama object yang dihasilkan yaitu mhs1.
 jawaban: cara mengakses atribut dan method dari suatu objek yaitu dengan menggunakan tanda titik ( . ) setelah nama objek. implementasinya pada kode program class MahasiswaMain20 yaitu:
 mhs1.nama = "Muhammad Ali Farhan";
 mhs1.tampilkanInformasi();
+3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
+jawaban: karena di antara pemanggilan tampilkanInformasi() pertama dan kedua, terdapat pemanggilan method ubahKelas("SI 2K") dan updateIPK(3.60) yang mengubah nilai atribut kelas dari "SI 2J" menjadi "SI 2K" dan nilai ipk dari 3.55 menjadi 3.60. sehingga ketika tampilkanInformasi() dipanggil kedua kali, data yang ditampilkan sudah berubah.
